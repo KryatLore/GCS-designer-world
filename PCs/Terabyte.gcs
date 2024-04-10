@@ -597,10 +597,10 @@
 		{
 			"attr_id": "hp",
 			"adj": 0,
-			"damage": 9,
+			"damage": 8,
 			"calc": {
 				"value": 17,
-				"current": 8,
+				"current": 9,
 				"points": 0
 			}
 		}
@@ -622,8 +622,6 @@
 					},
 					"usage": "Bite",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
 					"defaults": [
 						{
 							"type": "dx"
@@ -635,8 +633,6 @@
 					],
 					"calc": {
 						"level": 12,
-						"parry": "No",
-						"block": "No",
 						"damage": "1d+1 cr"
 					}
 				},
@@ -670,8 +666,8 @@
 					],
 					"calc": {
 						"level": 12,
-						"parry": "9",
-						"damage": "1d+1 cr"
+						"damage": "1d+1 cr",
+						"parry": "9"
 					}
 				},
 				{
@@ -683,7 +679,6 @@
 					},
 					"usage": "Kick",
 					"reach": "C,1",
-					"parry": "No",
 					"defaults": [
 						{
 							"type": "dx",
@@ -706,7 +701,6 @@
 					],
 					"calc": {
 						"level": 10,
-						"parry": "No",
 						"damage": "1d+2 cr"
 					}
 				}
@@ -989,7 +983,6 @@
 							],
 							"calc": {
 								"level": 8,
-								"range": "10/100",
 								"damage": "1d cut"
 							}
 						}
@@ -1637,7 +1630,7 @@
 										"compare": "at_least"
 									},
 									"amount": -1,
-									"per_level": true
+									"per_die": true
 								}
 							]
 						}
@@ -1655,7 +1648,6 @@
 							"usage": "Tail Strike",
 							"reach": "C",
 							"parry": "0",
-							"block": "No",
 							"defaults": [
 								{
 									"type": "dx"
@@ -1667,9 +1659,8 @@
 							],
 							"calc": {
 								"level": 12,
-								"parry": "9",
-								"block": "No",
-								"damage": "1d+3 cr"
+								"damage": "1d+3 cr",
+								"parry": "9"
 							}
 						}
 					],
@@ -2199,7 +2190,6 @@
 					],
 					"calc": {
 						"level": 8,
-						"range": "10/100",
 						"damage": "1d cr"
 					}
 				}
@@ -2782,7 +2772,7 @@
 		}
 	],
 	"created_date": "2023-08-12T17:53:31-03:00",
-	"modified_date": "2023-12-08T23:24:25-03:00",
+	"modified_date": "2024-04-10T10:52:22+02:00",
 	"calc": {
 		"swing": "2d",
 		"thrust": "1d+2",

@@ -610,6 +610,7 @@
 		{
 			"id": "0fc79445-1178-41ee-b7be-068fd152c1b5",
 			"type": "trait_container",
+			"open": true,
 			"children": [
 				{
 					"id": "75008469-7611-462b-af07-90536d8d409c",
