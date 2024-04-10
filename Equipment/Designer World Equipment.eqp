@@ -1,0 +1,499 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "6d79b9ca-7cd7-401f-84f5-d9f92f5bcc11",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "cc5ba277-9802-4d70-9a32-35a7dcf3a48c",
+					"type": "equipment",
+					"description": "Smart bandages",
+					"notes": "Bandages with sensors that adapt to different wound types. Provides a +1 bonus to First Aid skill rolls for wound dressing.",
+					"tech_level": "9",
+					"legality_class": "4",
+					"quantity": 2,
+					"value": 40,
+					"weight": "0.1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "54484598-8c9d-435b-a1b5-76d8069c9690",
+					"type": "equipment",
+					"description": "Nanite Solution",
+					"notes": "A vial of nanites that accelerate wound healing. Reduces natural healing time by half when applied.",
+					"tech_level": "9",
+					"legality_class": "4",
+					"quantity": 2,
+					"value": 60,
+					"weight": "0.1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "db93941f-e91a-473c-893f-7901d4661d09",
+					"type": "equipment",
+					"description": "Auto-Injectors",
+					"notes": "Pre-loaded syringes with various medications. Provides a +1 bonus to First Aid skill rolls for treating poison, shock, or pain.",
+					"tech_level": "9",
+					"legality_class": "4",
+					"quantity": 2,
+					"value": 50,
+					"weight": "0.1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "4995fb48-ecd2-42ea-8ecc-3a8d3f2459f5",
+					"type": "equipment",
+					"description": "Diagnostic Tool with AI Assistance",
+					"notes": "A handheld device for quick medical diagnostics. Provides a +1 bonus to First Aid or Physician skill rolls for diagnostics. Battery operated, lasts for 20 uses before needing recharge or battery replacement.",
+					"tech_level": "9",
+					"legality_class": "4",
+					"quantity": 1,
+					"value": 140,
+					"weight": "0.3 lb",
+					"max_uses": 20,
+					"uses": 20,
+					"equipped": true,
+					"calc": {
+						"extended_value": 140,
+						"extended_weight": "0.3 lb"
+					}
+				},
+				{
+					"id": "2bd2cd05-d0ac-4521-b688-5e5e5d304d75",
+					"type": "equipment",
+					"description": "Sterilization Foam",
+					"notes": "A can of foam that sterilizes wounds and medical tools. Provides a +1 bonus to First Aid skill rolls for wound cleaning.",
+					"tech_level": "9",
+					"legality_class": "4",
+					"quantity": 2,
+					"value": 40,
+					"weight": "0.2 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "0.4 lb"
+					}
+				},
+				{
+					"id": "8d549707-d8d5-4402-a2f6-4331fa62731f",
+					"type": "equipment",
+					"description": "Compact Surgical Tools",
+					"notes": "Miniaturized surgical instruments for emergency procedures.  Provides a +1 bonus to Surgery skill rolls for minor surgical procedures.",
+					"legality_class": "4",
+					"quantity": 1,
+					"value": 40,
+					"weight": "0.5 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "6add9339-e775-48c5-b9ef-944c5b0d4cd3",
+					"type": "equipment",
+					"description": "Emergency Stimulants",
+					"notes": "Pills that provide a temporary boost to physical abilities. Provides a temporary +1 to HT for 30 minutes.",
+					"tech_level": "9",
+					"legality_class": "4",
+					"quantity": 2,
+					"value": 30,
+					"weight": "0.1 lb",
+					"max_uses": 20,
+					"uses": 20,
+					"equipped": true,
+					"calc": {
+						"extended_value": 60,
+						"extended_weight": "0.2 lb"
+					}
+				}
+			],
+			"description": "First Aid Kit",
+			"notes": "A highly advanced first aid kit equipped with nanotechnology, smart diagnostics, and rapid treatment options.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Healing"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 620,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "33205112-ce2c-4b2b-86ff-cfaa3e46d393",
+			"type": "equipment",
+			"description": "SMG (Airsoft)",
+			"reference": "B278",
+			"notes": "Targets hit by the laser must make a HT-2 roll. Failure results in numbness and a -2 penalty to DX for 2d minutes for a limb hit or HT for a torso hit. Critical failure results in the target being completely paralyzed for 2d seconds. Success means the target feels discomfort but suffers no penalties. Critical success has no effect, and the target is immune to further effects from the weapon for 1 hour.",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"Toy Weapon"
+			],
+			"quantity": 1,
+			"value": 2500,
+			"weight": "7.5 lb",
+			"weapons": [
+				{
+					"id": "86e28597-0b11-42f4-b2d6-8a8e060fabb6",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "stu",
+						"base": "0"
+					},
+					"strength": "10†",
+					"accuracy": "4",
+					"range": "160/1,900",
+					"rate_of_fire": "13",
+					"shots": "30(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "stu"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2500,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "16ae51ad-71c8-497b-953a-4e2444fff6a8",
+			"type": "equipment",
+			"description": "EMP Grenade",
+			"notes": "Disables all unshielded electronic equipment in a 10-yard radius. Causes stun on living creatures who fail HT save.",
+			"legality_class": "4",
+			"tags": [
+				"Electronic",
+				"Thrown Weapon"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "12db8e66-c4b4-43cf-bfde-1e5877103b9c",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Electric",
+						"base": "0"
+					},
+					"usage": "Thrown",
+					"range": "10",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"name": "Throwing",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "Electric"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "0c9bf152-84d4-4787-90aa-7fa8c10291bc",
+			"type": "equipment",
+			"description": "Holographic Decoy Projector",
+			"notes": "Creates a holographic decoy within 10 yards. Battery lasts for 30 minutes of continuous use. Requires Electronics Operation (Holography) to program.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"quantity": 1,
+			"value": 200,
+			"weight": "1 lb",
+			"max_uses": 30,
+			"uses": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "defd48f0-363b-4bb1-8a64-3cd154c0d799",
+			"type": "equipment",
+			"description": "Cyberdeck",
+			"notes": "Used for hacking into computer systems. Comes with pre-installed hacking software.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"quantity": 1,
+			"value": 1000,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Computer Hacking"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "4f061345-828d-4d74-a116-336f70339531",
+			"type": "equipment",
+			"description": "Electronic Lockpick",
+			"reference": "UT95",
+			"notes": "This sensor/decoder gives a +3 to Lockpicking\nand Electronics Operation (Security) skill on\nattempts to pick any electronic or combination\nlock.\nBattery: A/2h",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"quantity": 1,
+			"value": 1500,
+			"weight": "0.2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "9cf29321-73cc-492e-b0d7-d282799e7852",
+			"type": "equipment",
+			"description": "Signal Jammer",
+			"reference": "HT213",
+			"notes": "30-yard range. Requires Electronics Operation (Security).\nBattery: M/2hrs.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "10 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Electronics Operation (Security)"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eba7537e-0ac1-498c-8831-9389c1fb36c9",
+			"type": "equipment",
+			"description": "Universal Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 9.",
+			"tech_level": "11",
+			"tags": [
+				"App",
+				"Communication and Interface",
+				"Software"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "39a4de65-1a69-4e84-8edb-e46879fe476b",
+			"type": "equipment_container",
+			"description": "Smartphone",
+			"reference": "HT39",
+			"tech_level": "9",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "d59f67d1-38ad-4b05-b2b8-1bb02576eec4",
+			"type": "equipment",
+			"description": "Earbuds",
+			"reference": "HT38",
+			"tech_level": "9",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "cc9e72a1-f92f-4344-98a2-3c2febfe3443",
+			"type": "equipment",
+			"description": "Holdout Mind Disruptor",
+			"reference": "UT132",
+			"notes": "Non-lethal weapon that incapacitates targets. ",
+			"tech_level": "12^",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 9600,
+			"weight": "0.3 lb",
+			"max_uses": 10,
+			"uses": 10,
+			"weapons": [
+				{
+					"id": "921417ca-5d15-46bc-8ba3-5e6353d7792d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Will-2 aff"
+					},
+					"strength": "3",
+					"accuracy": "3",
+					"range": "10/30",
+					"rate_of_fire": "1",
+					"shots": "10",
+					"bulk": "-1",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "Will-2 aff"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "0.3 lb"
+			}
+		}
+	]
+}
